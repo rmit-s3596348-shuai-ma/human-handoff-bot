@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace AgentTransferBot
 {
     [Serializable]
-    [LuisModel("", "")]
+    [LuisModel("cded6190-4b0e-4d43-a4c9-93560e40dc94", "4e223dc19d0d46248127fea5d2039892")]
     public class TransferLuisDialog : LuisDialog<object>
     {
         private readonly IUserToAgent _userToAgent;
